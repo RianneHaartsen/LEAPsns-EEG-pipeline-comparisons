@@ -10,7 +10,7 @@ The repository consists of 6 folders for each of the different stages of the ana
 6.	FiguresForPaper
 
 
-The folder entitled ‘1.Preprocessing’ contains the folders with the scripts used for the different 8 pre-processing pipelines. The different pipelines and their steps are described in the manuscript. Dependencies and additional functions needed for the scripts are detailed in the first lines within each script. Briefly, the scripts for the following pipelines are included: 
+The folder entitled ‘1.Preprocessing’ contains the folders with the scripts used for the different 8 pre-processing pipelines. The different pipelines and their steps are described in the manuscript. Dependencies and additional functions needed for the scripts are detailed in the first lines within each script, and within the publications listed below. The main preprocessing scripts for the following pipelines are included: 
 
 Pipeline 2 in the manuscript: MADE
 Maryland analysis of developmental EEG pipeline 
@@ -30,7 +30,7 @@ Main script used: LEAPsnsP_P4_PreprocHAPPEv1.m (in P4_HAPPEv1)
 Pipeline 5 in the manuscript: HAPPEv4
 the Harvard Automated Processing Pipeline for EEG version 4 
 Reference: Lopez, K. L., Monachino, A. D., Morales, S., Leach, S. C., Bowers, M. E., & Gabard-Durnam, L. J. (2022). HAPPILEE: HAPPE In Low Electrode Electroencephalography, a standardized pre-processing software for lower density recordings. NeuroImage, 260, 119390.
-Main script used: LEAPsnsP_P4_HAPPEv4_P7_HAPPILEE.m (in P5_HAPPEv4_AND_P7_HAPPILEE > HAPPE-master_March2024 > 1.pre-process, for the specific input parameters see P5_HAPPEv4_AND_P7_HAPPILEE > HAPPEv4_input_parameters_used > inputParameters.mat)
+Main script used: LEAPsnsP_P4_HAPPEv4_P7_HAPPILEE.m (in P5_HAPPEv4_AND_P7_HAPPILEE, for the specific input parameters see P5_HAPPEv4_AND_P7_HAPPILEE > HAPPEv4_input_parameters_used > inputParameters.mat)
 
 Pipeline 6 in the manuscript: MADE-BOND ld
 the adapted MADE-BOND pipeline tested on a low-density layout  
@@ -40,7 +40,7 @@ Main script used: LEAPsnsP_P6_PreprocMADEBONDld.m (in P6_MADEBONDld)
 Pipeline 7 in the manuscript: HAPPILEE
 the HAPPE In Low Electroencephalography 
 Reference: Lopez, K. L., Monachino, A. D., Morales, S., Leach, S. C., Bowers, M. E., & Gabard-Durnam, L. J. (2022). HAPPILEE: HAPPE In Low Electrode Electroencephalography, a standardized pre-processing software for lower density recordings. NeuroImage, 260, 119390.
-Main script used: LEAPsnsP_P4_HAPPEv4_P7_HAPPILEE.m (in P5_HAPPEv4_AND_P7_HAPPILEE > HAPPE-master_March2024 > 1.pre-process, for the specific input parameters see P5_HAPPEv4_AND_P7_HAPPILEE > HAPPILEE_input_parameters_used > inputParameters.mat)
+Main script used: LEAPsnsP_P4_HAPPEv4_P7_HAPPILEE.m (in P5_HAPPEv4_AND_P7_HAPPILEE, for the specific input parameters see P5_HAPPEv4_AND_P7_HAPPILEE > HAPPILEE_input_parameters_used > inputParameters.mat)
 
 Pipeline 8 in the manuscript: miniMADE
 The version of the MADE pipeline specifically adapted for EEG data recorded with low-density layouts
